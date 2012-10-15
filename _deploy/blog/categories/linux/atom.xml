@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Linux | My Octopress Blog]]></title>
+  <link href="http://JetFault.github.com/blog/categories/linux/atom.xml" rel="self"/>
+  <link href="http://JetFault.github.com/"/>
+  <updated>2012-10-14T21:24:35-04:00</updated>
+  <id>http://JetFault.github.com/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[My Recent Set-up]]></title>
+    <link href="http://JetFault.github.com/blog/2012/10/04/my-recent-set-up/"/>
+    <updated>2012-10-04T17:06:00-04:00</updated>
+    <id>http://JetFault.github.com/blog/2012/10/04/my-recent-set-up</id>
+    <content type="html"><![CDATA[<p>My recent hacking set-up has changed quick differently with my VPS.
+Rather than carrying my computer anywhere, I just SSH into it and store everything on it.
+I never bring my laptop with me anymore, and the only reason I ever need it is to work on some Photoshop.
+So first lets start out with the hardware I'm running.</p>
+
+<h3>The Gamer</h3>
+
+<p>I recently purchased a gaming laptop, Sager NP9150, for some Guild Wars 2 and CS:GO gaming.
+I had a free key for Windows 8 from school and decided to test it out. No Wireless Drivers!
+The laptop I was planning on bringing around and doing some gaming/coding at the computer lab became a desktop.
+Windows 8 technically isn't out and I'm sure REALTEK will release drivers soon (but let's not look
+at their track record with Linux). So I've never been a Windows fanboy, but its nice.
+Hell I'm the President of the Rutgers University Student Linux User Group, I'm not allowed to use Windows.
+The touch interface isn't that annoying to use without a touchscreen, for me its actually more intuitive.
+The Live Tiles are really nice and sleek, and the facebook/twitter app is beautiful and simplistic.
+But let's stop oogling over how Microsoft actually made a nice UX and get back ontopic. This laptop only
+runs Windows, so all it does is: Photoshop, Chrome, Guild Wars 2, Spotify. I haven't used Windows in years
+and I found myself getting annoyed at doing anything but the above. I was browsing the chrome store and
+found that Google had a SSH client, Secure Shell. Add to Chrome!
+My environment was back! My tmux, my vim, my bash, my node! It was all under my fingertips, in WINDOWS!
+By the way, right click on Secure Shell and check, open in window, this lets you be able to use Ctrl-W.
+From this moment I noticed that I was the exact user that ChromeOS was looking for. I received the
+beta CR-48 when it came out from Google on my doorstep a couple days before Christmas. Back then, I was
+not a ChromeOS user. Everything in the browser? How about my apps?! What if I need Eclipse? (I didn't
+know vim back then) I'm actually thinking of reviving my Chromebook (sad face on boot) and adding it
+to my set-up. Now that my entire hacking life lives on a server and github, why do I need one machine;
+I need many, everywhere. This is my machine in my dorm.</p>
+
+<h3>The Lemon</h3>
+
+<p>My older computer is a 3 year old Dell Studio XPS16 that overheats like a mother and only has 1.5 hours
+of battery.
+So this computer is anything but portable, requiring me to bring a charger and cooler with me everywhere I go.
+But, this is the computer I would take with me if I ever needed something portable.
+It's running Windows 7 and Ubuntu 12.04, more than 90% on Ubuntu. This is my main hacking computer.
+I have my LAMP, Redis, Node, Ruby, and a bunch of Chef &amp; Amazon scripts. The lid is defaced with all the
+stickers I got from hackathons, a true hacker's computer. But recently, it has been seeing less and less
+terminals and hacking. I am usually in two places: my dorm or the computer lab. If I'm in my dorm I use
+my new laptop and if I'm at the computer lab, then I use the machines there. Because my entire hacker
+station is moving from a local entity to a remote one, I can hack on anything. I don't need my laptop,
+I can use anything with an internet connection, even my phone!</p>
+
+<p><img src="/images/laptop-sticker.jpg"></p>
+
+<h3>The Cloud</h3>
+
+<p>Over the summer, I worked at a startup in NYC called <a href="http://www.peek.ly">Peek</a> as a DevOps Intern.
+I would get a text that a machine is down while I'm out to lunch. Awknowledge the alert, open ConnectBot
+on my Nexus, ssh into our server, restart the instance. This is where I got the idea of getting a VPS
+and using it for access to everything. Later, I left my laptop at work and remembered that I had to commit
+something. I didn't need my laptop, I was developing on the server, downloaded putty on my dad's computer,
+took 10 minutes going through emails trying to find the IP, then commited. Damnit, where is my cloud!</p>
+
+<p>This is when I noticed Chrome has spoiled me, same sessions everywhere I go, all my saved passwords,
+all my chrome apps. I could have easily checked the IP on the AWS console, if I remembered the password.
+I go through about 10 different machines on different networks a week. Go to class, open chrome, log in,
+leave off where I stopped last class. Once I get out of class, open my tabs on my phone and read on the bus.</p>
+
+<p>My VPS is from <a href="http://www.prgmr.com">prgmr</a> and I would definitely recommend them! I'm running Ubuntu 12.04,
+nginx, and octopress for my blog. I just started working on my <a href="https://github.com/JetFault/dotfiles">dotfiles</a>
+and want to add a bunch more. I also wanna work on some Chef or Puppet scripts to set up an ec2 instance
+exactly how my VPS looks now, so make dotfiles for my entire machine :)</p>
+
+<p>Thanks for reading and I do recommend you check out Secure Shell if you have the unfortunate pains of not
+being in your hacker home.</p>
+]]></content>
+  </entry>
+  
+</feed>
