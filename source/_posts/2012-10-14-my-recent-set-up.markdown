@@ -11,6 +11,7 @@ Rather than carrying my computer anywhere, I just SSH into it and store everythi
 I never bring my laptop with me anymore, and the only reason I ever need it is to work on some Photoshop.
 So first lets start out with the hardware I'm running.
 
+### The Gamer
 I recently purchased a gaming laptop, Sager NP9150, for some Guild Wars 2 and CS:GO gaming. 
 I had a free key for Windows 8 from school and decided to test it out. No Wireless Drivers! 
 The laptop I was planning on bringing around and doing some gaming/coding at the computer lab became a desktop. 
@@ -32,6 +33,7 @@ know vim back then) I'm actually thinking of reviving my Chromebook (sad face on
 to my set-up. Now that my entire hacking life lives on a server and github, why do I need one machine;
 I need many, everywhere. This is my machine in my dorm.
 
+### The Lemon
 My older computer is a 3 year old Dell Studio XPS16 that overheats like a mother and only has 1.5 hours
 of battery.
 So this computer is anything but portable, requiring me to bring a charger and cooler with me everywhere I go.
@@ -44,8 +46,10 @@ my new laptop and if I'm at the computer lab, then I use the machines there. Bec
 station is moving from a local entity to a remote one, I can hack on anything. I don't need my laptop,
 I can use anything with an internet connection, even my phone!
 
-{% img /images/laptop-sticker.png %}
+{% img /images/laptop-sticker.jpg %}
 
+
+### The Cloud
 Over the summer, I worked at a startup in NYC called [Peek](http://www.peek.ly) as a DevOps Intern.
 I would get a text that a machine is down while I'm out to lunch. Awknowledge the alert, open ConnectBot
 on my Nexus, ssh into our server, restart the instance. This is where I got the idea of getting a VPS 
